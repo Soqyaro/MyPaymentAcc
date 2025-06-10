@@ -34,6 +34,7 @@
             this.buttonOK = new System.Windows.Forms.Button();
             this.labelHeader11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelHeaderAuth = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelType
@@ -95,12 +96,23 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Сумма платежа:\r\n";
             // 
+            // labelHeaderAuth
+            // 
+            this.labelHeaderAuth.AutoSize = true;
+            this.labelHeaderAuth.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelHeaderAuth.Location = new System.Drawing.Point(509, 9);
+            this.labelHeaderAuth.Name = "labelHeaderAuth";
+            this.labelHeaderAuth.Size = new System.Drawing.Size(68, 16);
+            this.labelHeaderAuth.TabIndex = 7;
+            this.labelHeaderAuth.Text = "@SoyaYeah";
+            // 
             // PayDate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(589, 437);
+            this.Controls.Add(this.labelHeaderAuth);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelHeader11);
             this.Controls.Add(this.buttonOK);
@@ -121,5 +133,6 @@
         private System.Windows.Forms.Button buttonOK;
         private System.Windows.Forms.Label labelHeader11;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelHeaderAuth;
     }
 }
