@@ -13,7 +13,7 @@ namespace MyPaymentAcc
     public partial class PayDate : Form
     {
         public Payment CreatedPayment { get; private set; }//св-во для передачи созданного платежа обрато в мейн форм
-        public PayDate(string paymentType)
+        public PayDate(string paymentType)//йоу йуо
         {
             InitializeComponent();
             labelType.Text = paymentType;
