@@ -12,7 +12,7 @@ namespace MyPaymentAcc
 {
     public partial class FormMain : Form
     {
-        private List<Payment> scheduledPayments = new List<Payment>();
+        private List<Payment> scheduledPayments = new List<Payment>();//Коллекция для хранения всех запланированных платежей
         public FormMain()
         {
             InitializeComponent();

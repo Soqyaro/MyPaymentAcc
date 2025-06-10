@@ -32,6 +32,7 @@
             this.listViewPayAcc = new System.Windows.Forms.ListView();
             this.labelHeader = new System.Windows.Forms.Label();
             this.labelHeader2 = new System.Windows.Forms.Label();
+            this.labelHeaderAuth = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBoxPayList
@@ -74,11 +75,23 @@
             this.labelHeader2.TabIndex = 3;
             this.labelHeader2.Text = "Ваши платежи";
             // 
+            // labelHeaderAuth
+            // 
+            this.labelHeaderAuth.AutoSize = true;
+            this.labelHeaderAuth.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelHeaderAuth.Location = new System.Drawing.Point(499, 9);
+            this.labelHeaderAuth.Name = "labelHeaderAuth";
+            this.labelHeaderAuth.Size = new System.Drawing.Size(68, 16);
+            this.labelHeaderAuth.TabIndex = 4;
+            this.labelHeaderAuth.Text = "@SoyaYeah";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(578, 450);
+            this.Controls.Add(this.labelHeaderAuth);
             this.Controls.Add(this.labelHeader2);
             this.Controls.Add(this.labelHeader);
             this.Controls.Add(this.listViewPayAcc);
@@ -96,6 +109,7 @@
         private System.Windows.Forms.ListView listViewPayAcc;
         private System.Windows.Forms.Label labelHeader;
         private System.Windows.Forms.Label labelHeader2;
+        private System.Windows.Forms.Label labelHeaderAuth;
     }
 }
 
